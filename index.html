@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>PATRONES</h1>
+
+<section>
+  <form>
+    <label >CURP</label>
+    <input type="text" id="curp" name="curp" pattern="[A-Z]{3,4}\d{2}(?:0[1-9]|1[0-2])(?:0[1-9]|[12]\d|3[01])[HM]{1}[A-Z]{6}[0-9]{1,2}" title="Ingrese una CURP valida" required>
+    <input type="submit">
+  </form>
+</section>
+<section>
+<form>
+    <label for="rfc">RFC:</label>
+    <input type="text" id="rfc" name="rfc" pattern="[A-Za-z]{4}[0-9]{6}[A-Za-z0-9]{3}" title="Ingrese un RFC valido" required>
+    <input type="submit">
+  </form>
+</section>
+<section>
+<form>
+    <label for="email">Correo Electronico:</label>
+    <input type="email" id="email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" title="Ingrese una direccion de correo electronico valida" required>
+    <input type="submit">
+</form>
+</section>
+<section>
+<form>
+    <label for="telefono">Telefono:</label>
+    <input type="tel" id="telefono" name="telefono" pattern="[0-9]{10}" title="Ingrese un numero de telefono valido" required>
+    <input type="submit">
+</form>
+<section>
+<section>
+<form>
+    <label for="nss">NSS:</label>
+    <input type="text" id="nss" name="nss" pattern="[0-9]{11}" title="Ingrese un NSS valido" required>
+    <input type="submit">
+</form>
+</section>
+</body>
+</html>
